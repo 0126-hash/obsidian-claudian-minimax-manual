@@ -292,7 +292,7 @@
         <article class="step">
           <h3>检查 Claude CLI 路径</h3>
           <p>先在系统终端确认 Claude Code CLI 是否可用。如果终端能返回 <code>claude</code> 路径，并且运行 <code>claude</code> 能打开 Claude Code CLI，就可以继续后面的配置。</p>
-          <div class="callout info">如果终端提示 <code>command not found</code>，或 Windows 提示找不到文件，说明 Claude Code CLI 还没装好。先确认电脑已安装 Node.js 18 或更高版本，然后在终端运行 <code>npm install -g @anthropic-ai/claude-code</code>。安装完成后再运行 <code>claude</code>，能打开 Claude Code CLI 就说明安装成功。</div>
+          <div class="callout info">如果终端提示 <code>command not found</code>，或 Windows 提示找不到文件，说明 Claude Code CLI 还没装好。先按 <a href="https://0126-hash.github.io/obsidian-claudian-minimax-manual/claude-code-cli-install/">Claude Code CLI 安装说明</a> 完成安装，再回到这里继续配置 MiniMax。</div>
           <div class="os-tabs">
             <input class="os-tab-input" type="radio" name="cli-os" id="cli-macos" checked />
             <input class="os-tab-input" type="radio" name="cli-os" id="cli-windows" />
@@ -430,7 +430,7 @@ ANTHROPIC_DEFAULT_HAIKU_MODEL=MiniMax-M2.7</code></pre>
         </article>
         <article class="card">
           <h3>提示找不到 Claude CLI</h3>
-          <p>如果还没安装，先运行 <code>npm install -g @anthropic-ai/claude-code</code>。安装后运行 <code>claude</code> 确认能打开，再把 <code>which claude</code> 或 <code>where.exe claude</code> 返回的路径填到 <code>Claude → Setup → Claude CLI 路径</code>。</p>
+          <p>先按 <a href="https://0126-hash.github.io/obsidian-claudian-minimax-manual/claude-code-cli-install/">Claude Code CLI 安装说明</a> 完成安装。安装后运行 <code>claude</code> 确认能打开，再把 <code>which claude</code> 或 <code>where.exe claude</code> 返回的路径填到 <code>Claude → Setup → Claude CLI 路径</code>。</p>
         </article>
         <article class="card">
           <h3>仍然调用到旧模型</h3>
